@@ -1,24 +1,16 @@
 # subscribr
 
-## Project setup
+## Установить зависимости
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Запустить хот релоад
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Собрать версию
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
