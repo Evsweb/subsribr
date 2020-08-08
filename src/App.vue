@@ -6,6 +6,7 @@
       </div>
       <div class="main_content">
         <div class="main_top">
+          <TopLine />
         </div>
         <div class="main_middle">
           <router-view/>
@@ -17,10 +18,11 @@
 
 <script>
 import Menu from '@/components/Menu.vue';
+import TopLine from '@/components/TopLine.vue';
 
 export default {
   components: {
-    Menu,
+    Menu, TopLine
   },
 };
 </script>
@@ -43,15 +45,15 @@ html {
   font-family: roboto;
 }
 .wrapper { 
-  width: 100%;
+  width: 90%;
   height: 100%;
-  min-height: 800px;
+  min-height: 950px;
   display: flex;
 }
 .side_content{
   width: 360px;
   height: 100%;
-  min-height: 800px;
+  min-height: 950px;
   background-color: #fff;
 }
 .main_content {
@@ -59,7 +61,7 @@ html {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  min-height: 800px;
+  min-height: 950px;
   background-color: #F5F7FA;
 }
 .main_top {

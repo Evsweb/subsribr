@@ -26,7 +26,20 @@
   font-size: 24px;
   padding: 30px 0 60px 0;
 }
-.menu_item p{
-  padding-left: 30px;
+.menu_item {
+  text-decoration: none;
+}
+.menu_item p {
+  color: #7c899c;
+  padding: 15px 0 15px 30px;
+}
+.menu_item p::before {
+  margin-right: 20px;
+  content: '';
+}
+.menu_active p {
+  color: #070e17;
+  font-weight: bold;
+  background-color: #ced2d9;
 }
 </style>
